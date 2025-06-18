@@ -5,8 +5,7 @@
    2. 텍스트 위치 정보 추출
 2. 이미지 인페인팅
    1. AI 지우개
-   2. AI 자동 선택
-   3. https://www.percenty.co.kr/ : 텍스트 위치 정보 추출 -> 인페인팅 -> 번역 -> 반영
+   2. AI 영역 선택
 3. 이미지 배경제거
 4. 가상 피팅 : https://app.klingai.com/global/try-on/try-on/new
    1. 실제모델 + 가상 피팅
@@ -16,12 +15,11 @@
       1. 옷 : https://www.emotioncastle.com/products/124395229
    3. 영상 : 생성 시간이 매우 김(20분 이상), 고비용
       1. kling ai : https://app.klingai.com/global/image-to-video/frame-mode/new
-      2. stability.ai : https://stability.ai/news/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control
 5. AI 상품 등록
    1. 이미지 특징을 분석하여 상품 정보 추출
    2. 옵션 등록 프롬프트를 이용하여 옵션 생성
    3. 고도몰 API를 이용하여 상품 등록
-   4. 상품상세 생성 : https://geditor.gabia.com/product/index
+   4. 상품상세 생성
    5. 프롬프트를 입력받아 항목을 확장 할 수 있음
       1. 브랜드명은 나이키로 해줘.
       2. 상품 노출은 5월 10일 14시
@@ -54,4 +52,9 @@
    1. 전화상담 mp3 텍스트 추출 & 요약, AI 평가
    2. COS 1:1 문의 감정 평가
 10. 일대일문의 LLM 챗봇(RAG구축)
-    1. https://nhnent.dooray.com/task/view/tasks/4011196591516758389
+
+- Vector DB: Quadrant
+- LangGraph 구조
+  ![LangGraph](./langgraph.png)
+- Streamlit
+  ![streamlit](./sample.png)
