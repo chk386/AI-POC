@@ -1,4 +1,4 @@
-## 셋팅
+## 개발 환경
 
 - Package Manager : Poetry
 - Python 3.11
