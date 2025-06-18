@@ -1,4 +1,20 @@
-# 시연 순서
+## 셋팅
+
+- Package Manager : Poetry
+- Python 3.11
+- 엑셀 변환, sqlite3 : Pandas
+- Jupyter Notebook
+- 터미널 프로그레스 : tqdm
+- lint & formatter : Ruff
+- AI 오픈소스 모델
+  - openai-whisper : voice to text
+  - pyannote : 화자 분리
+  - paddleOCR : ocr
+  - langchain, langgraph, streamit : RAG 구현
+  - Ollama : 로컬 서빙(엑사원 3.5, 임베딩 모델)
+- AI Driven 개발 : Cursor AI 활용, .cursorrules 작성
+
+## POC
 
 1. OCR
    1. 이미지에서 텍스트 추출
