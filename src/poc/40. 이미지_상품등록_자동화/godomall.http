@@ -1,0 +1,554 @@
+
+POST https://alpha-server-api.godomall.com/goods
+Content-Type: application/json
+Version: 1.0
+authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZG1pbk5vIjoxLCJhY2Nlc3NpYmxlSXBzIjpbXSwidXNhZ2UiOiJTRVJWRVIiLCJhZG1pbklkIjoic3VwZXJBZG1pbiIsImlzcyI6Ik5ITiBDb21tZXJjZSIsImFwcE5vIjoxNjg3LCJtYWxsTm8iOjAsInNvbHV0aW9uVHlwZSI6IkdPRE8iLCJleHAiOjQ4OTU1MjI2MjMsInNob3BObyI6OTA0MzE2LCJpYXQiOjE3NDE5MjI2MjN9.UcTb9vSiJjMBbJjQOY3T_dYQaB9fjve1--sYFsYzixI
+systemkey: b1hLbVFoS1lUeUVRUVRjaUE0b2ZOZz09
+
+{
+    "scmNo": 1,
+    "goodsName": {
+        "name": "라이프 수이 무선 충전 보조 배터리",
+        "goodsNameFlag": "DEFAULT",
+        "mainName": "라이프 수이 무선 충전 보조 배터리",
+        "listName": "라이프 수이 무선 충전 보조 배터리",
+        "detailName": "언제 어디서나 편리하게! 라이프 수이 무선 충전 보조 배터리로 스마트폰을 충전하세요. 슬림한 디자인으로 휴대성이 뛰어나며, 무선 충전 기능으로 더욱 간편하게 사용 가능합니다. 고속 충전 지원으로 빠르게 충전할 수 있습니다.",
+        "partnerName": "라이프 수이 무선 충전 보조 배터리",
+        "purchaseName": "라이프 수이 무선 충전 보조 배터리"
+    },
+    "deliverySno": 2,
+    "categoryCode": "007",
+    "displayFlag": "N",
+    "displayMobileFlag": "N",
+    "sellFlag": "N",
+    "sellMobileFlag": "N",
+    "state": "NEW",
+    "taxStatus": "TAXABLE",
+    "stockFlag": "Y",
+    "soldOutFlag": "N",
+    "restockFlag": "N",
+    "goodsCode": "G00281",
+    "searchWords": [
+        "무선충전, 보조배터리, 휴대용, 슬림, 고속충전"
+    ],
+    "openDate": "2025-02-10 14:01:02",
+    "imageDetailViewFlag": "Y",
+    "colors": [
+        "E91818",
+        "97D0E8",
+        "1E2C89",
+        "FDC4DA"
+    ],
+    "weight": 1.23,
+    "brandCode": "007",
+    "makerName": "제조사명",
+    "originName": "원산지",
+    "modelNo": "MODEL001",
+    "memo": "상품 메모",
+    "makeDate": "2025-02-10",
+    "launchDate": "2025-02-10",
+    "effectiveStartDate": "2025-02-01 00:00:00",
+    "effectiveEndDate": "2028-02-20 00:00:00",
+    "onlyAdultFlag": "N",
+    "totalStock": 50,
+    "salesUnit": 1,
+    "salesStartDate": "2025-02-10 00:00:00",
+    "salesEndDate": "2025-02-09 00:00:00",
+    "cultureBenefitFlag": "N",
+    "daumFlag": "N",
+    "goodsPrice": {
+        "price": 20000,
+        "priceString": "가격대체문구",
+        "fixedPrice": 25000,
+        "costPrice": 13000
+    },
+    "goodsDescription": {
+        "description": "PC 상품 상세설명",
+        "mobileDescription": "모바일 상품 상세설명",
+        "shortDescription": "상품 짧은설명",
+        "eventDescription": "이벤트 문구, 마케팅 제휴서비스(네이버 쇼핑, 다음 쇼핑하우)에 사용됩니다"
+    },
+    "fixedOrderCount": {
+        "type": "OPTION",
+        "minOrderCount": 1,
+        "maxOrderCount": 20
+    },
+    "guideInfo": {
+        "deliveryInfoCode": "002001",
+        "asInfoCode": "003001",
+        "refundInfoCode": "004001",
+        "exchangeInfoCode": "005001"
+    },
+    "goodsMustInfo": [
+        [
+            {
+                "infoTitle": "용량(중량), 수량, 크기",
+                "infoValue": "상품 상세참조"
+            }
+        ],
+        [
+            {
+                "infoTitle": "관련법상 표시사항",
+                "infoValue": "상품 상세참조"
+            },
+            {
+                "infoTitle": "소비자상담 관련 전화번호",
+                "infoValue": "상품 상세참조"
+            }
+        ]
+    ],
+    "kcmarkInfoList": [
+        {
+            "type": "CHILDREN_SAFETY_CERTIFICATION",
+            "certificationDate": "2024-02-27 00:00:00",
+            "certificationNumber": "4922193128377772"
+        },
+        {
+            "type": "CHILDREN_SAFETY_CONFIRMATION",
+            "certificationDate": "2023-01-10 00:00:00",
+            "certificationNumber": "1239871248912390"
+        },
+        {
+            "type": "CHILDREN_SUPPLIER_CONFORMITY",
+            "certificationDate": "2023-12-11 00:00:00",
+            "certificationNumber": "2389472398478923"
+        }
+    ],
+    "count": 0,
+    "date": "2025-02-27 00:00:00",
+    "externalVideo": {
+        "url": "https://youtu.be/n8Er5CjTbO0",
+        "width": 650,
+        "height": 400
+    },
+    "mileage": {
+        "unit": "PERCENT",
+        "value": 10
+    },
+    "discount": {
+        "unit": "PRICE",
+        "value": 2000
+    },
+    "payLimits": [
+        "PG",
+        "BANK_TRANSFER",
+        "PAYCO"
+    ],
+    "seoTag": {
+        "title": "타이틀",
+        "author": "메타태그 설명자",
+        "description": "메타태그 설명",
+        "keywords": [
+            "메타태그키워드1",
+            "메타태그키워드2",
+            "메타태그키워드3"
+        ]
+    },
+    "goodsOption": {
+        "displayFlag": "DIVIDED",
+        "names": [
+            "색상",
+            "물통사이즈",
+            "무게"
+        ],
+        "values": [
+            {
+                "optionNo": 1,
+                "optionValue1": "빨",
+                "optionValue2": "10cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_10cm_weight_1kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 2,
+                "optionValue1": "빨",
+                "optionValue2": "10cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_10cm_weight_2kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 3,
+                "optionValue1": "빨",
+                "optionValue2": "10cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_10cm_weight_5kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 4,
+                "optionValue1": "빨",
+                "optionValue2": "20cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_20cm_weight_1kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 5,
+                "optionValue1": "빨",
+                "optionValue2": "20cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_20cm_weight_2kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 6,
+                "optionValue1": "빨",
+                "optionValue2": "20cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_20cm_weight_5kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 7,
+                "optionValue1": "빨",
+                "optionValue2": "30cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_30cm_weight_1kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 8,
+                "optionValue1": "빨",
+                "optionValue2": "30cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_30cm_weight_2kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 9,
+                "optionValue1": "빨",
+                "optionValue2": "30cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_red_size_30cm_weight_5kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 10,
+                "optionValue1": "주",
+                "optionValue2": "10cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_10cm_weight_1kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 11,
+                "optionValue1": "주",
+                "optionValue2": "10cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_10cm_weight_2kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 12,
+                "optionValue1": "주",
+                "optionValue2": "10cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_10cm_weight_5kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 13,
+                "optionValue1": "주",
+                "optionValue2": "20cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_20cm_weight_1kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 14,
+                "optionValue1": "주",
+                "optionValue2": "20cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_20cm_weight_2kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 15,
+                "optionValue1": "주",
+                "optionValue2": "20cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_20cm_weight_5kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 16,
+                "optionValue1": "주",
+                "optionValue2": "30cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_30cm_weight_1kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 17,
+                "optionValue1": "주",
+                "optionValue2": "30cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_30cm_weight_2kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 18,
+                "optionValue1": "주",
+                "optionValue2": "30cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_orange_size_30cm_weight_5kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 19,
+                "optionValue1": "노",
+                "optionValue2": "10cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_10cm_weight_1kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 20,
+                "optionValue1": "노",
+                "optionValue2": "10cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_10cm_weight_2kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 21,
+                "optionValue1": "노",
+                "optionValue2": "10cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_10cm_weight_5kg",
+                "stockCount": 100
+            },
+            {
+                "optionNo": 22,
+                "optionValue1": "노",
+                "optionValue2": "20cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_20cm_weight_1kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 23,
+                "optionValue1": "노",
+                "optionValue2": "20cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_20cm_weight_2kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 24,
+                "optionValue1": "노",
+                "optionValue2": "20cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_20cm_weight_5kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 25,
+                "optionValue1": "노",
+                "optionValue2": "30cm",
+                "optionValue3": "1kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_30cm_weight_1kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 26,
+                "optionValue1": "노",
+                "optionValue2": "30cm",
+                "optionValue3": "2kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 1000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_30cm_weight_2kg",
+                "stockCount": 50
+            },
+            {
+                "optionNo": 27,
+                "optionValue1": "노",
+                "optionValue2": "30cm",
+                "optionValue3": "5kg",
+                "optionValue4": "",
+                "optionValue5": "",
+                "optionPrice": 50000,
+                "optionViewFlag": "Y",
+                "optionCode": "color_yellow_size_30cm_weight_5kg",
+                "stockCount": 50
+            }
+        ]
+    },
+    "textOptions": [
+        {
+            "optionName": "추가요청사항",
+            "mustFlag": "N",
+            "addPrice": 1000,
+            "inputLimit": 200
+        },
+        {
+            "optionName": "구매자정보",
+            "mustFlag": "Y",
+            "addPrice": 0,
+            "inputLimit": 200
+        }
+    ],
+    "goodsAddInfoList": [
+        {
+            "title": "추가정보1",
+            "value": "추가정보 첫번째 항목의 값입니다"
+        },
+        {
+            "title": "추가정보2",
+            "value": "추가정보 두번째 항목의 값입니다"
+        }
+    ],
+    "goodsIcons": [
+        {
+            "kind": "UNLIMITED",
+            "code": "icon0001",
+            "startDate": None,
+            "endDate": None,
+            "benefitSno": 0
+        },
+        {
+            "kind": "LIMITED",
+            "code": "icon0002",
+            "startDate": "2025-02-15 00:00:00",
+            "endDate": "2025-02-25 00:00:00",
+            "benefitSno": 0
+        },
+        {
+            "kind": "LIMITED",
+            "code": "icon0003",
+            "startDate": "2025-02-15 00:00:00",
+            "endDate": "2025-02-25 00:00:00",
+            "benefitSno": 0
+        }
+    ],
+    "goodsImage": {
+        "imageStorage": "DEFAULT"
+    },
+    "naver": {
+        "importFlag": "PARALLEL_IMPORT",
+        "productFlag": "SCHEDULED",
+        "ageGroup": "YOUNG",
+        "gender": "COMMON",
+        "tags": [
+            "네이버검색태그1",
+            "네이버검색태그2"
+        ],
+        "attributes": [
+            "네이버속성1",
+            "네이버속성2"
+        ],
+        "categoryId": "네이버쇼핑카테고리ID",
+        "productId": "네이버가격비교페이지ID",
+        "brandCertFlag": "N",
+        "npayAble": "ALL",
+        "npayAcumAble": "ALL"
+    },
+    "naverBook": {
+        "goodsType": "PAPER",
+        "isbn": "1234567890"
+    }
+}

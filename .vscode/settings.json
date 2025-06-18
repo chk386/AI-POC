@@ -1,0 +1,105 @@
+{
+    "pylint.enabled": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingTypeStubs": "none",
+        "reportUnknownMemberType": "none",
+        "reportWildcardImportFromLibrary": "none",
+        "reportGeneralTypeIssues": "none",
+        "reportUnknownParameterType": "none",
+        "reportUnknownArgumentType": "none",
+        "reportUnknownVariableType": "none",
+        "reportArgumentType": "none",
+        "reportCallIssue": "none",
+    },
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit",
+            "source.organizeImports.ruff": "explicit"
+        }
+    },
+    "ruff.organizeImports.enabled": true,
+    // "python.analysis.extraPaths": [
+    //     "./src"
+    // ],
+    "python.analysis.diagnosticSeverity": {
+        "reportMissingTypeStubs": "none"
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 40001,
+            "driver": "MySQL",
+            "name": "shopby-real",
+            "group": "shopby",
+            "database": "NCP_REAL",
+            "username": "querypie",
+            "password": "querypie"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 40013,
+            "driver": "MySQL",
+            "name": "cos-real",
+            "database": "cos",
+            "username": "querypie",
+            "password": "afccd04addb50dec"
+        },
+        {
+            "previewLimit": 50,
+            "name": "SQLite",
+            "driver": "SQLite",
+            "database": "./src/commerce_jupyter/test/qna.db",
+            "connectionTimeout": 15
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "10.104.21.32",
+            "port": 13306,
+            "driver": "MySQL",
+            "name": "shopby_mb_alpha",
+            "database": "NCP_ALPHA",
+            "username": "shopby_mb_alpha",
+            "password": "qNU6uC@g#x"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "10.104.16.88",
+            "port": 6033,
+            "driver": "MySQL",
+            "name": "excel_user",
+            "database": "bi_pg_sales",
+            "username": "excel_user",
+            "password": "vjkKjrb3!1Bxs"
+        }
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "jupyter.runStartupCommands": [
+        "%reload_ext autoreload",
+        "%autoreload 2"
+    ]
+}
